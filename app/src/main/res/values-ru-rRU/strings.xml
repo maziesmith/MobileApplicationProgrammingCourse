@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Лабораторная работа №1</string>
+    <string name="author_button">Автор</string>
+    <string name="info_message">Лабораторная работа №1</string>
+    <string name="author_label">Студент</string>
+    <string name="group_label">Группа</string>
+    <string name="author_name">Никита Куцелай</string>
+    <string name="author_group">М091601(72)</string>
+    <string name="show_author_info_menu_item">Показать автора</string>
+    <string name="hide_author_info_menu_item">Скрыть автора</string>
+</resources>

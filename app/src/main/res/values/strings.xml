@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Laboratory Work №1</string>
+    <string name="author_button">Author</string>
+    <string name="info_message">Laboratory Work №1</string>
+    <string name="author_label">Student</string>
+    <string name="group_label">Group</string>
+    <string name="author_name">Nikita Kutselay</string>
+    <string name="author_group">M091601(72)</string>
+    <string name="show_author_info_menu_item">Show Author</string>
+    <string name="hide_author_info_menu_item">Hide Author</string>
+</resources>
