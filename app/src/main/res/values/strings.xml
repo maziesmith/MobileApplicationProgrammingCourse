@@ -1,11 +1,24 @@
 <resources>
-    <string name="app_name">Laboratory Work №1</string>
+    <string name="app_name">Laboratory Work №2</string>
     <string name="author_button">Author</string>
-    <string name="info_message">Laboratory Work №1</string>
+    <string name="info_message">Laboratory Work №2</string>
     <string name="author_label">Student</string>
     <string name="group_label">Group</string>
     <string name="author_name">Nikita Kutselay</string>
     <string name="author_group">M091601(72)</string>
     <string name="show_author_info_menu_item">Show Author</string>
     <string name="hide_author_info_menu_item">Hide Author</string>
+    <string name="action_feedback">Give feedback...</string>
+    <string name="feedback_dialog_title">Rate our app</string>
+    <string name="feedback_dialog_positive_button">Rate app</string>
+    <string name="feedback_dialog_negative_button">Close</string>
+    <string name="feedback_dialog_message">If you want, add a feedback about the application:</string>
+    <string name="feedback_hint">You feedback</string>
+    <string name="feedback_sent_notification">"Thank you! Your review has been sent"</string>
+    <string name="action_individual_task">Individual task: 5</string>
+    <string name="application_list_loading">Loading applications info...</string>
+    <string name="copy_application_name_menu_item">Copy name</string>
+    <string name="copy_application_package_menu_item">Copy package</string>
+    <string name="show_application_info_menu_item">Show info</string>
+    <string name="copying_notification">Скопировано в буфер обмена:</string>
 </resources>
