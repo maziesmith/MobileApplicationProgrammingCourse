@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Лабораторная работа №2</string>
+    <string name="app_name">Лабораторная работа №3</string>
+    <string name="lab1_name">Лабораторная работа №1</string>
+    <string name="lab2_name">Лабораторная работа №2</string>
+    <string name="lab3_name">Лабораторная работа №3</string>
+    <string name="lab4_name">Лабораторная работа №4</string>
+    <string name="individual_task_name">Individual task: 5</string>
     <string name="author_button">Автор</string>
     <string name="info_message">Лабораторная работа №2</string>
     <string name="author_label">Студент</string>
@@ -8,7 +13,7 @@
     <string name="author_group">М091601(72)</string>
     <string name="show_author_info_menu_item">Показать автора</string>
     <string name="hide_author_info_menu_item">Скрыть автора</string>
-    <string name="action_feedback">Оставить отзыв...</string>
+    <string name="action_feedback">Оставить отзыв&#8230;</string>
     <string name="feedback_dialog_title">Оцените наше приложение</string>
     <string name="feedback_dialog_positive_button">Оценить приложение</string>
     <string name="feedback_dialog_negative_button">Закрыть окно</string>
@@ -16,9 +21,10 @@
     <string name="feedback_hint">Ваш отзыв</string>
     <string name="feedback_sent_notification">"Спасибо! Ваш отзыв был отправлен"</string>
     <string name="action_individual_task">Индивидуальное задание: 5</string>
-    <string name="application_list_loading">Загрузка информации о приложениях...</string>
+    <string name="application_list_loading">Загрузка информации о приложениях&#8230;</string>
     <string name="copy_application_name_menu_item">Копировать имя приложения</string>
     <string name="copy_application_package_menu_item">Копировать название пакета приложения</string>
     <string name="show_application_info_menu_item">Информация о приложении</string>
     <string name="copying_notification">Скопировано в буфер обмена:</string>
+    <string name="not_implemented_message">Еще не реализовано</string>
 </resources>
