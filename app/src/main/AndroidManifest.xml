@@ -9,18 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ApplicationListActivity"
-                  android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+        <activity
+            android:name=".AuthorInfoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/lab1_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="mtuci.nikitakutselay.mobileapplicationprogrammingcourse.lab1">
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/lab2_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="mtuci.nikitakutselay.mobileapplicationprogrammingcourse.lab2">
+        </activity>
+        <activity
+            android:name=".ApplicationListActivity"
+            android:parentActivityName=".FeedbackActivity"
+            android:label="@string/individual_task_name">
         </activity>
     </application>
 
