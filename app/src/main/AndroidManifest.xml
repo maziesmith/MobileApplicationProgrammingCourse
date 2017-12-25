@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,22 +18,29 @@
         </activity>
         <activity
             android:name=".AuthorInfoActivity"
-            android:parentActivityName=".MainActivity"
             android:label="@string/lab1_name"
             android:launchMode="singleTask"
+            android:parentActivityName=".MainActivity"
             android:taskAffinity="mtuci.nikitakutselay.mobileapplicationprogrammingcourse.lab1">
         </activity>
         <activity
             android:name=".FeedbackActivity"
-            android:parentActivityName=".MainActivity"
             android:label="@string/lab2_name"
             android:launchMode="singleTask"
+            android:parentActivityName=".MainActivity"
             android:taskAffinity="mtuci.nikitakutselay.mobileapplicationprogrammingcourse.lab2">
         </activity>
         <activity
             android:name=".ApplicationListActivity"
-            android:parentActivityName=".FeedbackActivity"
-            android:label="@string/individual_task_name">
+            android:label="@string/individual_task_name"
+            android:parentActivityName=".FeedbackActivity">
+        </activity>
+        <activity
+            android:name=".ProcessListActivity"
+            android:label="@string/lab4_name"
+            android:launchMode="singleTask"
+            android:parentActivityName=".MainActivity"
+            android:taskAffinity="mtuci.nikitakutselay.mobileapplicationprogrammingcourse.lab4">
         </activity>
     </application>
 
