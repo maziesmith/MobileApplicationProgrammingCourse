@@ -27,4 +27,6 @@
     <string name="show_application_info_menu_item">Информация о приложении</string>
     <string name="copying_notification">Скопировано в буфер обмена:</string>
     <string name="not_implemented_message">Еще не реализовано</string>
+    <string name="launch_last_lab_menu_item">Последняя запущенная лабораторная работа</string>
+    <string name="clear_settings_menu_item">Очистить SharedPreferences</string>
 </resources>

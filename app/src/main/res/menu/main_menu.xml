@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_launch_last_lab"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="@string/launch_last_lab_menu_item"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/action_clear_settings"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/clear_settings_menu_item"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>
